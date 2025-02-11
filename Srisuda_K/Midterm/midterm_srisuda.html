@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BUYIT</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="https://e7.pngegg.com/pngimages/965/368/png-clipart-buy-now-logo-buy-now-button-icons-logos-emojis-buy-buttons.png" alt="buyit" style="Width: 200px;">
+        </div>
+        <div class="delivery-info">
+            <p>Deliver to Robert Smith<br>
+                123 Blueberry ln</p>
+        </div>
+        <div class="search">
+            <input type="search" id="gsearch" name="gsearch" placeholder="Search">
+            <input type="submit">
+        <div class="language-select">
+            <label for="chooselanguage"> Choose Language: </label>
+            <select>
+                  <option value="English"> English</option>
+                  <option value="Chinese"> Chinese</option>
+                  <option value="Korean"> Korean</option>    
+            </select>
+        </div>
+    </header>
+    <main>
+        <img class="productimage" src="https://tse2.mm.bing.net/th?id=OIP.TIWckpoCSJiDO_8U3qewegHaEh&pid=Api&P=0&h=220" alt="Product"> 
+
+        <div class="product-grid">
+            <div class="product-item">
+                <div> 
+                    <img class="placeholder" src="https://tse2.mm.bing.net/th?id=OIP.UwcVARF9PRxDjwCIvzgvYAHaHa&pid=Api&P=0&h=220" alt="Productitem1" style="Width: 500px;">
+                </div>
+                <div class="products">
+                    <p>Some Product</p>
+                    <button id="likeButton" onclick="incrementLikes()">Like</button>
+                    <span id="likeCount">0</span> 
+                    <script> let likes = 0;
+                        function incrementLikes() {
+                            likes++; 
+                            document.getElementById("likeCount").textContent = likes
+                        }
+                    </script>
+                    <div> 
+                        <a href="https://www.buyit.com">See More</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div>
+                    <img class="placeholder" src="https://tse3.mm.bing.net/th?id=OIP.Fe4qZfZ1KwwDirwGsumOeQHaG1&pid=Api&P=0&h=220" alt="Productitem2" style="Width: 500px;">
+                </div>
+                <div class="products">
+                    <p>Some Product</p>
+                    <button id="likeButton" onclick="incrementLikes()">Like</button>
+                    <span id="likeCount">0</span> 
+                    <script> let like = 0;
+                        function incrementLikes() {
+                            like++; 
+                            document.getElementById("likeCount").textContent = like
+                        }
+                    </script>
+                    <div> 
+                        <a href="https://www.buyit.com">See More</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>  
+  </body>
+</html>
+

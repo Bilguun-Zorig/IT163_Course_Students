@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+.ProFile {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProName h1 {
+    margin: 1rem auto;
+    margin-left: 2rem;
+    font-size: 45pt;
+    font-weight: lighter;
+}
+
+.ProImg {
+    border: 5px solid transparent;
+    margin: 0 10px;
+    margin-left: 2rem;
+    max-width: 120px;
+    padding: 10px;
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right,blue,yellow,blue);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    text-align: center;
+}
+
+.ProImg img {
+    width: 85px;
+    height: 85px;
+}
+
+.ProContact {
+    display: flex;
+    justify-content: start;
+}
+
+.ProContact img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.ProContact a {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    transform: translateY(100%);    
+}
+
+.Tech {
+    display: flex;
+    flex-direction: column;
+}
+
+.TechTitle h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 28pt;
+    font-weight: lighter;
+}
+
+.ResTbl table {
+    margin-left: 2rem;
+    width: 95%;
+    border-collapse:collapse;
+    border-style: hidden;
+}
+
+.ResTbl th{
+    text-align: left;
+    padding: 3px;
+    border: 2px solid black;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.ResTbl td {
+    text-align: left;
+    padding: 3px;
+    border: 2px solid black;
+    font-size: 16pt;
+}
+
+@media screen and (max-width: 600px) {
+    .ResTbl table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        font-size: 12pt;
+    }
+
+    td:before {
+        position: absolute;
+        left: 6px;
+        content: attr(data-label);
+        font-weight:bold;
+    }
+}
+
+.SSnake {
+    display: flex;
+    flex-direction: column;
+}
+
+.SSnake h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 28pt;
+    font-weight: lighter;
+}
+
+.SSImage {
+    border: 5px solid transparent;
+    margin: 0 3px;
+    margin-left: 2rem;
+    max-width: 65px;
+    padding: 10px;
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right,blue,yellow,blue);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    text-align: center;
+}
+
+.SSImage img {
+    width: 40px;
+    height: 35px;
+}
+
+.SSTblGrid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.SSTblGrid table {
+    margin-left: 2rem;
+    width: 95%;
+}
+
+.SSTblGrid td {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+.SSTblGrid td:nth-child(1) {
+    text-align-last: justify;
+}
+
+.SSTblGrid td:nth-child(2) {
+    text-align: center;
+}
+
+.SSTblGrid td:nth-child(3) {
+    text-align: center;
+    border-left: 2px solid black;
+    /* border */
+}
+
+.CM {
+    display: flex ;
+    flex-direction: column;
+}
+
+.CM h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 28pt;
+    font-weight: lighter;
+}
+
+.MustHave form {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 16pt;
+    justify-content: space-between;
+}
+
+.MustHave input {
+    width: 200px;
+    height: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.Name {
+    display: flex;
+}
+
+.EMail {
+    display: flex;
+}
+
+.MoreInfo form{
+    display: flex;
+    margin-top: 2%;
+    font-size: 16pt;
+}
+
+.Msg {
+    display: flex;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.MsgBox textarea {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.SendMsg {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.Submit button {
+    font-size: 14pt;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border-bottom-style: ridge;
+}

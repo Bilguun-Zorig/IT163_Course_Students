@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  /* Header */
+  header {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0c0c;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .site-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .delivery-info {
+    font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .search-container {
+    font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+      font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+      padding: px;
+      width: 350px;
+      margin-right: px;
+  }
+  
+  
+  .language-selector {
+    font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-selector select {
+      font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+    margin-left: 10px;
+    width: 120px;
+      font-size: px;
+      padding: px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+  }
+  
+  .product-main {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .product-main img {
+    width: 60%;
+    height: auto;
+  }
+  
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .product-card {
+    width: 286px;
+    height: 275px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .placeholder {
+    width: 180px;
+    height: 180px;
+    background-color: #ccc;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .cross {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cross::before,
+  .cross::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 3px;
+    background-color: white;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .cross::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .product-name {
+    font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+    font-size: px;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .likes {
+    font-size: 14px;
+  }
+  
+  .see-more {
+    font-family: "Dancing Script", "Great Vibes", "Pacifico", cursive;
+    font-size: 14px;
+    /* color: ; */
+    cursor: pointer;
+  }

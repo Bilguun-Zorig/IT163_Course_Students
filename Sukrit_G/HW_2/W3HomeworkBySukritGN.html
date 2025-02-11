@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/W3/W3HomeworkBySukritGN.css">
+    <title>W3 Homework By Sukrit G</title>
+</head>
+<body>
+    <main>
+        <div class="PetShelter">
+            <div class="Welcome">
+                <h1>Welcome to pet shelter</h1>
+            </div>
+            <div class="PetImage">
+                <img src="/Image/W3/PetSittingN.jpg" alt="Pet Shelter Home Image">
+            </div>
+        </div>
+        <div class="PetForm">
+            <form action="#">
+                <div class="AddPetTitle">
+                    <h2>Add your pet here : </h2>
+                </div>
+                <div class="PetName">
+                    <label for="Name">Pet Name : *</label>
+                    <input type="text">
+                </div>
+                <div class="PetType">
+                    <label for="PetType">Pet Type :</label>
+                    <select id="PetType">
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Rat">Rat</option>
+                        <option value="Fish">Fish</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="PetFriendly">
+                    <label for="Friendly">Friendly ? :</label>
+                    <input type="checkbox" id="FriendlyY" name="FriendlyY" value="Yes">
+                    <label for="FriendlyY">Yes</label><br>
+                    <input type="checkbox" id="FriendlyN" name="FriendlyN" value="No">
+                    <label for="FriendlyN">No</label><br>
+                </div>
+                <div class="PetBD">
+                    <label for="birthday">Birthday : </label>
+                    <input type="date">
+                </div>
+            </form>
+        </div>
+        <div class="NewPetAdopt">
+            <div class="AdopTitle">
+                <h2>New Pets up for adoption</h2>
+            </div>
+            <div class="ResTblPet">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Friendly</th>
+                            <th>Birthday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Name">Toby</td>
+                            <td data-label="Type">Dog</td>
+                            <td data-label="Friendly">Yes</td>
+                            <td data-label="Birthday">09/19/2018</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Name">Ottie</td>
+                            <td data-label="Type">Dog</td>
+                            <td data-label="Friendly">Yes</td>
+                            <td data-label="Birthday">10/10/2022</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Name">Roger</td>
+                            <td data-label="Type">Dragon</td>
+                            <td data-label="Friendly">No</td>
+                            <td data-label="Birthday">01/20/1680</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Name">Gary</td>
+                            <td data-label="Type">Cat</td>
+                            <td data-label="Friendly">Yes</td>
+                            <td data-label="Birthday">10/10/2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </main>    
+</body>
+</html>

@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+body .Top {
+    display: grid;
+    grid-template-columns: 10% 12% 50% 25%;
+    grid-auto-rows: 1fr;
+    margin: 0;
+    height: 90px;
+    background-color: orangered;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo img {
+    width: 75px;
+    height: 50px;
+}
+
+.TxtDeliver {
+    display: flex;
+    justify-content: flex-start;
+    font-style: italic;
+}
+
+.Top p {
+    display: flex;
+    flex-direction: row ;
+    font-size: 16pt;
+    text-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search input {
+    width: 500px;
+    height: 30px;
+}
+
+.Search button {
+    width: 50px;
+    height: 30px;
+}
+
+.Language {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Language label {
+    font-size: large;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+
+.Language section {
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.MainImage {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.MainImage img {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.Bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ContainerL {
+    height: 400px;
+    width: 665px;
+    margin-right: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ImgL {
+    display: flex;
+    flex-direction: column;
+}
+
+.ImgL img {
+    width: 350px;
+    height: 250px;
+}
+
+.ContainerL h4 {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: medium;
+    color: gray;
+}
+
+.ContainerL h6 {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: small;
+    color: gray;
+}
+
+.LikeAreaL {
+    display: flex;
+    flex-direction: row;
+}
+
+.LikeAreaL img {
+    width: 40px;
+    height: 40px;
+}
+
+.CLikeL {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContainerR {
+    height: 400px;
+    width: 665px;
+    margin-left: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-bottom: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ImgR {
+    display: flex;
+    flex-direction: column;
+}
+
+.ImgR img {
+    width: 350px;
+    height: 250px;
+}
+
+.ContainerR h4 {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: medium;
+    color: gray;
+}
+
+.ContainerR h6 {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: small;
+    color: gray;
+}
+
+.LikeAreaR {
+    display: flex;
+    flex-direction: row;
+}
+
+.LikeAreaR img {
+    width: 40px;
+    height: 40px;
+}
+
+.CLikeR {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
